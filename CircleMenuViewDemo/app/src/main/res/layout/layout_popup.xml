@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+	<com.kyleduo.circlemenuviewdemo.CircleMenuView
+		android:id="@+id/pop_circle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<ImageView
+		android:id="@+id/pop_iv"
+		android:layout_width="30dp"
+		android:layout_height="30dp"
+		android:layout_alignBottom="@id/pop_circle"
+		android:layout_alignRight="@id/pop_circle"
+		android:background="@drawable/icon_bg"
+		android:scaleType="centerInside"
+		android:src="@drawable/icon0"/>
+	<!--android:layout_marginBottom="@dimen/pop_offset"-->
+	<!--android:layout_marginRight="@dimen/pop_offset"-->
+
+</RelativeLayout>
