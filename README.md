@@ -1,6 +1,17 @@
 # CircleMenuView
 Circle of menu, can be used around a button, holding a list of icon.
 
+Usage
+---
+
+* **setCircleMenuAdapter** Adapter
+* **setOnItemClickListener** Listener
+* **setDisplayMode** `DisplayMode.FADE` or `DisplayMode.EDGE` // FADE: 渐隐效果，item完整渐变; EDGE: 边缘渐隐。
+* **setBackCircleColor** background circle color
+* **setTrackRadius** radius of images
+* **setAngleRange** startAngle, endAngle, reverse // 默认顺时针
+* **setFadeAngle** angle for fade effect
+
 License
 ---
 
