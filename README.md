@@ -12,6 +12,11 @@ Usage
 * **setAngleRange** startAngle, endAngle, reverse // 默认顺时针
 * **setFadeAngle** angle for fade effect
 
+ScreenShot
+---
+
+![ScreenShot](./preview.png)
+
 License
 ---
 
